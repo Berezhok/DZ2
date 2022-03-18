@@ -1,0 +1,46 @@
+body{
+    /* background-image: url("img/1612691231_137-p-zelenii-fon-ekrana-kompyutera-186.jpg"); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: url("img/NvL.gif"); 
+    /* background: url("img/3HeZ.gif"); */
+    background-size: contain;
+}
+
+div.card{
+    font-size: 20px;
+    
+    background-color: aquamarine;
+    border: 5px solid #2c539b;
+    margin: 50px;
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+    
+}
+
+p.p1{
+    font-size: 25px;
+text-decoration: underline;
+
+}
+
+
+p.p2{
+    border: 5px solid #2c539b;
+    margin: 10px;
+    border-radius: 10px;
+}
+p.p2::first-letter {
+    text-transform:uppercase ;
+  }
+
+p.p3{
+    font-style: italic;
+    font-size: larger;
+}
+
+p.p3::first-letter {
+    text-transform:uppercase ;
+  }
