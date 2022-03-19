@@ -9,9 +9,9 @@ fetch('https://jsonplaceholder.typicode.com/posts')
         let div =  document.createElement("div");
         div.classList.add("card")
         div.innerHTML = `
-            <p class="p1">${element.id} post</p>
-            <p class="p2">${element.body}</p> 
-            <p class="p3">${element.title}</p>`
+            <h1>${element.id} post</h1>
+            <p class="p1">${element.body}</p> 
+            <p class="p2">${element.title}</p>`
         document.body.append(div); 
            
             });
