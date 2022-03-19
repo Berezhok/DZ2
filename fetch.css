@@ -1,12 +1,15 @@
 @media (max-width: 720px) {
     body{
-    display: flex;
-    flex-direction: column;
-}
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    }
 
 div.card{
-    width: 100%;
-}
+    min-width: 300px; 
+    max-height: 400px;
+    
+    }
 }
 
 
